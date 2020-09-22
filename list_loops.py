@@ -15,3 +15,10 @@ songs.extend (["Message in the Wind", "Threads", "Not Afraid"])
 del songs[1]
 print(songs)
 
+#Q6
+animals = ["Sea Turtle", "Komodo Dragon", "Black Bear"]
+animals.append("Green Aracari")
+print(animals[2])
+del animals[0]
+for i in range(len(animals)):
+    print(animals[i])
